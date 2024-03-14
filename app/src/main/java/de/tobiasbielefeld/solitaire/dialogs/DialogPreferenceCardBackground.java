@@ -64,7 +64,7 @@ public class DialogPreferenceCardBackground extends CustomDialogPreference imple
 
         this.context = context;
 
-        context.getTheme().resolveAttribute(R.attr.selectableItemBackground, typedValue, true);
+        context.getTheme().resolveAttribute(androidx.appcompat.R.attr.selectableItemBackground, typedValue, true);
     }
 
     @Override
